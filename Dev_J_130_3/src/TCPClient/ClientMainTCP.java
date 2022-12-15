@@ -5,9 +5,9 @@ public class ClientMainTCP {
 
     public static void main(String[] args) {
         ClientTCP client = new ClientTCP();
-        System.out.println("Client started");
+        System.out.println("Клиент запущен.");
         client.start();
-        System.out.println("Client finished");
+        System.out.println("Клиент завершил работу.");
     }
     
 }
